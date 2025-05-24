@@ -251,3 +251,23 @@ Interest Coverage Ratio (Interest expense to EBIT): Ratio of interest expenses t
 Net Income Flag: 1 if Net Income is Negative for the last two years, 0 otherwise
 
 Equity to Liability: Ratio of ownership interest to total liabilities
+
+
+- # Flask API
+
+You can test the trained MLP Classifier Model with the following instruction !
+
+```bash
+# Clone the repository
+git clone https://github.com/ndje-enge/Bankruptcy-prediction
+
+# Go to API folder 
+cd API
+
+# Run Flask API
+python3 APIapp.py 
+```
+
+Here an exemple of the URL format to obtain predictions with your own parameters ! : 
+
+URL: http://127.0.0.1:5000/predict?features=850792&features=490554&features=455689&features=217002&features=971840&features=612555&features=409879&features=640259&features=740878&features=702376&features=993161&features=557714&features=889321&features=347524&features=562752&features=516211&features=307238&features=541123&features=216051&features=342996&features=191020&features=25975&features=736650&features=906949&features=617897&features=175816&features=438893&features=429770&features=775429&features=447461&features=432783&features=665351&features=945357&features=701615&features=536789&features=759389&features=48185&features=583382&features=640465&features=797013&features=937948&features=598927&features=200060&features=413444&features=994143&features=72118
